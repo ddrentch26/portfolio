@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Danail Drentchev - UI/UX Designer</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a href="#top" class="logo">Danail Drentchev</a>
+    <nav class="nav">
+      <a href="#work">Work</a>
+      <a href="#about">About</a>
+      <a href="#resume">Resume</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+  <section id="top" class="hero">
+    <div class="wrap">
+      <p class="eyebrow">UI/UX Designer &amp; Front-End Developer</p>
+      <h1>Danail Drentchev</h1>
+      <p class="hero-sub">I design and build clear, considered digital products — from Figma prototypes to production React interfaces.</p>
+      <div class="hero-actions">
+        <a href="#work" class="btn btn-primary">View Work</a>
+        <a href="#contact" class="btn btn-ghost">Get in Touch</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="work" class="section">
+    <div class="wrap">
+      <h2 class="section-title">Selected Work</h2>
+      <p class="section-sub">A few recent projects. Click any one to see the full case study.</p>
+
+      <div class="grid grid-3">
+
+        <a class="card" href="project-1.html" data-project="1">
+          <div class="card-media placeholder">
+            <img src="images/project-1.jpg" alt="uOttawa Housing Portal Redesign screenshot" onerror="this.parentElement.classList.add('is-empty')">
+            <span class="placeholder-label">Replace with images/project-1.jpg</span>
+          </div>
+          <div class="card-body">
+            <h3>uOttawa Housing Portal Redesign</h3>
+            <p>High-fidelity prototype and React/TypeScript frontend for a more secure student housing platform — 2nd place, SESA Hackathon.</p>
+            <span class="tag">React · TypeScript · Vite · Tailwind CSS · Figma</span>
+          </div>
+        </a>
+
+        <a class="card" href="project-2.html" data-project="2">
+          <div class="card-media placeholder">
+            <img src="images/project-2.jpg" alt="D&amp;M Detailing website screenshot" onerror="this.parentElement.classList.add('is-empty')">
+            <span class="placeholder-label">Replace with images/project-2.jpg</span>
+          </div>
+          <div class="card-body">
+            <h3>D&amp;M Detailing Website</h3>
+            <p>Responsive booking site built in React and Tailwind, with Square Appointments integrated as a live scheduling system.</p>
+            <span class="tag">React · TypeScript · Square API · Tailwind · Figma</span>
+          </div>
+        </a>
+
+        <a class="card" href="project-3.html" data-project="3">
+          <div class="card-media placeholder">
+            <img src="images/project-3-2.jpg" alt="Investing Portfolio Comprehension App screenshot" onerror="this.parentElement.classList.add('is-empty')">
+            <span class="placeholder-label">Replace with images/project-3-2.jpg</span>
+          </div>
+          <div class="card-body">
+            <h3>Investing Portfolio Comprehension App</h3>
+            <p>UX research uncovering why new investors struggle to understand portfolio value changes — now in Figma prototyping.</p>
+            <span class="tag">UX Research · Figma · In Progress</span>
+          </div>
+        </a>
+
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="section section-alt">
+    <div class="wrap about-grid">
+      <div>
+        <h2 class="section-title">About</h2>
+        <p>I'm a Computer Science student at Toronto Metropolitan University, with a Co-op option (transferred from Carleton University). I'm also an OUA varsity athlete, a native Bulgarian speaker, and professionally proficient in French. I like working across the full process — from UX research and Figma prototypes to shipping the React and TypeScript that makes them real.</p>
+        <p>Alongside school, I co-founded D&amp;M Detailing, a Toronto-based detailing startup, and work as a production assistant at Bensimon Byrne. I recently placed 2nd at the SESA Mini Hackathon, hosted by uOttawa. I design in Figma and build with React, Node.js, and Tailwind CSS.</p>
+      </div>
+      <div class="about-photo placeholder">
+        <img src="images/profile.jpg" alt="Danail Drentchev" onerror="this.parentElement.classList.add('is-empty')">
+        <span class="placeholder-label">Replace with images/profile.jpg</span>
+      </div>
+    </div>
+  </section>
+
+  <section id="resume" class="section">
+    <div class="wrap resume-block">
+      <h2 class="section-title">Resume</h2>
+      <p class="section-sub">Download a copy of my resume below.</p>
+      <a href="resume/resume.pdf" class="btn btn-primary" download>Download Resume (PDF)</a>
+    </div>
+  </section>
+
+  <section id="contact" class="section section-alt">
+    <div class="wrap contact-block">
+      <h2 class="section-title">Get in Touch</h2>
+      <p class="section-sub">Have a project in mind, or just want to say hello?</p>
+      <a href="mailto:danail.drentchev@gmail.com" class="contact-email">danail.drentchev@gmail.com</a>
+      <div class="contact-links">
+        <a href="http://www.linkedin.com/in/danail-drentchev-b65039365" target="_blank" rel="noopener">LinkedIn</a>
+        <span class="dot">·</span>
+        <a href="https://github.com/ddrentch26" target="_blank" rel="noopener">GitHub</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <p>&copy; <span id="year"></span> Danail Drentchev. All rights reserved.</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
